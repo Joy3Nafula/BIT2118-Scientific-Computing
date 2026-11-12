@@ -20,3 +20,10 @@ To execute the scripts in this repository, ensure you have Python 3.8+ installed
 ```bash
 git clone [https://github.com/joy3nafula/BIT2118-Scientific-Computing.git](https://github.com/joy3nafula/BIT2118-Scientific-Computing.git)
 cd BIT2118-Scientific-Computing
+# Create a virtual environment named 'mlvenv'
+python3 -m venv mlvenv
+
+# Activate the environment
+source mlvenv/bin/activate
+
+pip install numpy scipy matplotlib
